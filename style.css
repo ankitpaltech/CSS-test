@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.yellow{
+    
+    background-color: rgb(234, 201, 14);
+    height: 100vh;
+}
+.base{
+ display: flex;   
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+.pink1{
+    
+    width: 50%;
+    height: 35vh;
+    align-items: center;
+    
+    background-color: rgb(255, 5, 97);
+    clip-path: polygon(0 0,calc(100% - 120.00px) 0,100% 120.00px,100% 100%,0 100%);
+}
+.pink2{
+    
+    width: 50%;
+    height: 35vh;
+    align-items: center;
+    
+    background-color: rgb(255, 5, 97);
+    clip-path: polygon(0 120.00px,120.00px 0,100% 0,100% 100%,0 100%);
+    
+}
+
+.para{
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: aliceblue;
+}
+.crc{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    opacity: 0.4;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+.crc b{
+    padding-top: 90%;
+    
+}
